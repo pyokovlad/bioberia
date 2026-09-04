@@ -24,7 +24,8 @@ document.addEventListener("DOMContentLoaded", () => {
             .reduce((total, block) => total + block.querySelectorAll(".timeline-card").length, 0);
 
         if (counter) {
-            counter.textContent = `${visible} ${visible === 1 ? "должность" : visible < 5 ? "должности" : "должностей"}`;
+            const word = visible === 1 ? "должность" : visible < 5 ? "должности" : "должностей";
+            counter.textContent = `${visible} ${word}`;
         }
     }
 
