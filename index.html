@@ -258,98 +258,134 @@
                     <span class="section-label">04 / РОДОСЛОВНАЯ</span>
                     <h2>Семейное древо</h2>
                 </div>
-                <span class="file-number">ЗАПОЛНЯЕТСЯ ВЛАДЕЛЬЦЕМ</span>
+                <span class="file-number">РОДСТВЕННАЯ ЛИНИЯ</span>
             </div>
 
             
 
-            <div class="family-tree">
+            <div class="simple-tree">
                 <!-- Александр -->
-                <div class="tree-level level-1">
-                    <article class="family-node main-person">
-                        <span class="node-label">ОСНОВАТЕЛЬ ВЕТВИ</span>
-                        <h3>Берия Александр Павлович</h3>
-                        <p>Дата рождения: <span>21.02.2004</span></p>
-                        <small>Текущий персонаж</small>
-                    </article>
-                </div>
-
-                <div class="tree-connector"></div>
-
-                <!-- Родители -->
-                <div class="tree-level level-2">
-                    <article class="family-node">
-                        <span class="node-label">ОТЕЦ</span>
-                        <h3>[ФИО отца]</h3>
-                        <p>Дата рождения: [дата]</p>
-                        <small>[Дополнительная информация]</small>
-                    </article>
-
-                    <article class="family-node">
-                        <span class="node-label">МАТЬ</span>
-                        <h3>[ФИО матери]</h3>
-                        <p>Дата рождения: [дата]</p>
-                        <small>[Дополнительная информация]</small>
-                    </article>
-                </div>
-
-                <div class="tree-connector"></div>
-
-                <!-- Бабушки и дедушки -->
-                <div class="tree-level level-4">
-                    <div class="ancestor-branch">
-                        <span class="branch-title">ПО ЛИНИИ ОТЦА</span>
-                        <div class="ancestor-pair">
-                            <article class="family-node"><span class="node-label">ДЕД</span><h3>[ФИО деда]</h3><p>[Дата рождения]</p><small>[Информация]</small></article>
-                            <article class="family-node"><span class="node-label">БАБУШКА</span><h3>[ФИО бабушки]</h3><p>[Дата рождения]</p><small>[Информация]</small></article>
-                        </div>
-                    </div>
-
-                    <div class="ancestor-branch">
-                        <span class="branch-title">ПО ЛИНИИ МАТЕРИ</span>
-                        <div class="ancestor-pair">
-                            <article class="family-node"><span class="node-label">ДЕД</span><h3>[ФИО деда]</h3><p>[Дата рождения]</p><small>[Информация]</small></article>
-                            <article class="family-node"><span class="node-label">БАБУШКА</span><h3>[ФИО бабушки]</h3><p>[Дата рождения]</p><small>[Информация]</small></article>
-                        </div>
+                <div class="simple-root">
+                    <div class="person-circle main-person-circle">
+                        <span class="person-role">АЛЕКСАНДР</span>
+                        <strong>Берия Александр<br>Павлович</strong>
                     </div>
                 </div>
 
-                <div class="tree-connector"></div>
+                <div class="root-connector">
+                    <i></i><span></span><i></i>
+                </div>
 
-                <!-- Прадеды -->
-                <div class="tree-level level-4 great-grandparents">
-                    <div class="ancestor-branch">
-                        <span class="branch-title">РОДИТЕЛИ ДЕДА / БАБУШКИ</span>
-                        <div class="ancestor-pair">
-                            <article class="family-node compact"><span class="node-label">ПРАДЕД</span><h3>[ФИО]</h3><p>[Дата]</p></article>
-                            <article class="family-node compact"><span class="node-label">ПРАБАБУШКА</span><h3>[ФИО]</h3><p>[Дата]</p></article>
+                <!-- Родители Александра -->
+                <div class="parents-grid">
+                    <div class="lineage-column">
+                        <div class="person-circle">
+                            <span class="person-role">ОТЕЦ</span>
+                            <strong>Павел Сергеевич<br>Берия</strong>
+                        </div>
+                        <div class="lineage-stem"></div>
+                        <div class="branch-title">РОД ПАВЛА СЕРГЕЕВИЧА</div>
+                        <div class="ancestor-couple">
+                            <div class="person-circle small-circle">
+                                <span class="person-role">ОТЕЦ</span>
+                                <strong>Серго Лаврентьевич<br>Берия</strong>
+                            </div>
+                            <div class="couple-link"></div>
+                            <div class="person-circle small-circle">
+                                <span class="person-role">МАТЬ</span>
+                                <strong>Марфа Максимовна<br>Пешкова</strong>
+                            </div>
+                        </div>
+
+                        <div class="next-stem"></div>
+                        <div class="ancestor-couple fourth-generation">
+                            <div class="person-circle mini-circle">
+                                <span class="person-role">ОТЕЦ</span>
+                                <strong>Лаврентий Павлович<br>Берия</strong>
+                            </div>
+                            <div class="couple-link"></div>
+                            <div class="person-circle mini-circle">
+                                <span class="person-role">МАТЬ</span>
+                                <strong>Нина Теймуразовна<br>Гегечкори</strong>
+                            </div>
+                        </div>
+
+                        <div class="next-stem"></div>
+                        <div class="ancestor-couple fourth-generation">
+                            <div class="person-circle mini-circle">
+                                <span class="person-role">ОТЕЦ</span>
+                                <strong>Максим Алексеевич<br>Пешков</strong>
+                            </div>
+                            <div class="couple-link"></div>
+                            <div class="person-circle mini-circle">
+                                <span class="person-role">МАТЬ</span>
+                                <strong>Надежда Алексеевна<br>Пешкова</strong>
+                            </div>
+                        </div>
+                        <div class="next-stem short"></div>
+                        <div class="single-ancestor">
+                            <div class="person-circle mini-circle special-circle">
+                                <span class="person-role">ПРЕДОК</span>
+                                <strong>Алексей Максимович<br>Пешков</strong>
+                                
+                            </div>
                         </div>
                     </div>
-                    <div class="ancestor-branch">
-                        <span class="branch-title">РОДИТЕЛИ ДЕДА / БАБУШКИ</span>
-                        <div class="ancestor-pair">
-                            <article class="family-node compact"><span class="node-label">ПРАДЕД</span><h3>[ФИО]</h3><p>[Дата]</p></article>
-                            <article class="family-node compact"><span class="node-label">ПРАБАБУШКА</span><h3>[ФИО]</h3><p>[Дата]</p></article>
+
+                    <div class="lineage-column">
+                        <div class="person-circle">
+                            <span class="person-role">МАТЬ</span>
+                            <strong>Тинатин Александровна<br>Канделаки</strong>
+                        </div>
+                        <div class="lineage-stem"></div>
+                        <div class="branch-title">РОД ТИНАТИН АЛЕКСАНДРОВНЫ</div>
+                        <div class="ancestor-couple">
+                            <div class="person-circle small-circle">
+                                <span class="person-role">ОТЕЦ</span>
+                                <strong>Александр Георгиевич<br>Канделаки</strong>
+                            </div>
+                            <div class="couple-link"></div>
+                            <div class="person-circle small-circle">
+                                <span class="person-role">МАТЬ</span>
+                                <strong>Зизи Зауровна<br>Бубашвили</strong>
+                            </div>
+                        </div>
+
+                        <div class="next-stem"></div>
+                        <div class="ancestor-couple fourth-generation">
+                            <div class="person-circle mini-circle">
+                                <span class="person-role">ОТЕЦ</span>
+                                <strong>Бидзина Иосифович<br>Канделаки</strong>
+                            </div>
+                            <div class="couple-link"></div>
+                            <div class="person-circle mini-circle">
+                                <span class="person-role">МАТЬ</span>
+                                <strong>Мариам Александровна<br>Гиоргадзе</strong>
+                            </div>
+                        </div>
+
+                        <div class="next-stem"></div>
+                        <div class="ancestor-couple fourth-generation">
+                            <div class="person-circle mini-circle">
+                                <span class="person-role">ОТЕЦ</span>
+                                <strong>Заури Мамонтович<br>Бубашвили</strong>
+                            </div>
+                            <div class="couple-link"></div>
+                            <div class="person-circle mini-circle">
+                                <span class="person-role">МАТЬ</span>
+                                <strong>Заира Тарасовна<br>Чочия</strong>
+                            </div>
                         </div>
                     </div>
-                    <div class="ancestor-branch">
-                        <span class="branch-title">РОДИТЕЛИ ДЕДА / БАБУШКИ</span>
-                        <div class="ancestor-pair">
-                            <article class="family-node compact"><span class="node-label">ПРАДЕД</span><h3>[ФИО]</h3><p>[Дата]</p></article>
-                            <article class="family-node compact"><span class="node-label">ПРАБАБУШКА</span><h3>[ФИО]</h3><p>[Дата]</p></article>
-                        </div>
-                    </div>
-                    <div class="ancestor-branch">
-                        <span class="branch-title">РОДИТЕЛИ ДЕДА / БАБУШКИ</span>
-                        <div class="ancestor-pair">
-                            <article class="family-node compact"><span class="node-label">ПРАДЕД</span><h3>[ФИО]</h3><p>[Дата]</p></article>
-                            <article class="family-node compact"><span class="node-label">ПРАБАБУШКА</span><h3>[ФИО]</h3><p>[Дата]</p></article>
-                        </div>
-                    </div>
+                </div>
+
+                <div class="tree-legend">
+                    <span><i class="legend-dot"></i> мужская линия</span>
+                    <span><i class="legend-dot female"></i> женская линия</span>
+                    <span>Связи показаны непосредственно между поколениями</span>
                 </div>
             </div>
         </section>
-
         <section class="section signature-section reveal" id="signature">
             <div class="section-heading">
                 <div>
