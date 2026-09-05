@@ -300,7 +300,8 @@ main { position: relative; z-index: 1; }
 .root-person .tree-relation {
     color: var(--accent-light);
 }
-
+.root-person .tree-relation .nation {
+    margin-top: 15px;
 .root-person strong {
     color: var(--accent-light);
     font-size: 17px;
