@@ -867,8 +867,22 @@ main { position: relative; z-index: 1; }
 
         isolation: isolate;
         
+        transition:
+            transform .3s ease,
+            border-color .3s ease,
+            box-shadow .3s ease;
 }
 
+.award-card:hover {
+    transform: translateY(-6px);
+
+    border-color: rgba(185,155,99,.65);
+
+    box-shadow:
+        0 28px 70px rgba(0,0,0,.42),
+        0 0 25px rgba(185,155,99,.08),
+        inset 0 1px 0 rgba(255,255,255,.05);
+}
 .award-card::before {
     content:'';
     position: absolute;
